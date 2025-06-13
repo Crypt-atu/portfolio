@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Portfolio Site">
+    <meta name="keywords" content="Portfolio">
+    <meta name="author" content="crypt_atu">
+    <meta http-equiv="X-Frame-Options" content="deny">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="icon" href="/images/FACE.jpg" type="image/jpg">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="home">
+        <div>
+            <img src="images/FACE.jpg" alt="">
+            <h1>CRYPT_ATU</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Section -->
+    <div class="main">
+        <h2></h2>
+        <img src="images/DP.jpg" alt="">
+    </div>
+    <!-- About Section -->
+    <div class="about" id="about">
+        <div class="image">
+            <img src="images/BACKGROUND PIC.jpg" alt="">
+        </div>
+        <div class="note">
+            <h3>About Me</h3>
+            <p>My name is Aleken Triumph Unim-Ashipu nicknamed (Crypt) cause I go for all things secured.
+                I am a student of the Federal University of Technology, Minna, Niger State studying Computer Science.
+                I picked an interest in Computer Science because of I love everything technology and I wanted to know
+                on how technologies work and operate the thing running under the hood. Now specializing in CyberSecurity has made
+                it more fufilling. I hack computers ethically(WhiteHat) and when I do find solutions for a quick fix in the bug,
+                I also specialize in the building of tools in this field I so love and enjoy, all in all I build softwares that you
+                as a user can use in securing the technology you use. Later in future I wish to integrate blockchain technology 
+                into my cybersecurity and engineer something unique. So just to be brief I am the go to place for everything security.
+                I am the founder and CEO of XiCrypt(CyberSecurity Firm)
+            </p>
+        </div>
+    </div>
+    <!-- Projects Section -->
+    <div class="projects" id="project">
+        <h1>PROJECTS DONE</h1>
+        <div class="project-card">
+            <div class="card-slider">
+                <div class="card">
+                    <img src="images/mac_changer.jpg" alt="" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Mac Address Changer</h3>
+                        <p class="card-description">This is a powerful that changes your systems MAC(Media Access Control) Address at will this tool works only on Linux, you can use crontab to automate the task if you want to or run it as an CLI application. Note: It was written in python</p>
+                        <a href="https://github.com/Crypt-atu/IP_-_MAC_ADDRESS_CHANGER" class="card-btn">More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/port_scanner.jpg" alt="" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Port Scanner</h3>
+                        <p class="card-description">This is tools help to scan a network to see ports that are open a very useful tool written in python. You can take it as the baby version of NMAP</p>
+                        <a href="https://github.com/Crypt-atu/PortScanner" class="card-btn">More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/school_portal.png" alt="" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">School Portal</Portal></h3>
+                        <p class="card-description">A basic Informative web application for an imaginary school, technologies used. HTML, CSS, Django(Python) and SQL</p>
+                        <a href="https://github.com/Crypt-atu/binta-intl-sch" class="card-btn">More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/port_scanner.jpg" alt="" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Upcoming</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias expedita doloremque voluptatibus, assumenda debitis ipsa officia id eum quos distinctio, sunt optio quo aut. Molestiae optio veniam possimus eos animi?</p>
+                        <a href="" class="card-btn">More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/port_scanner.jpg" alt="" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Upcoming</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias expedita doloremque voluptatibus, assumenda debitis ipsa officia id eum quos distinctio, sunt optio quo aut. Molestiae optio veniam possimus eos animi?</p>
+                        <a href="" class="card-btn">More</a>
+                    </div> 
+                </div>
+                <div class="card">
+                    <img src="images/port_scanner.jpg" alt="" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Upcoming</h3>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias expedita doloremque voluptatibus, assumenda debitis ipsa officia id eum quos distinctio, sunt optio quo aut. Molestiae optio veniam possimus eos animi?</p>
+                        <a href="" class="card-btn">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="contact" id="contact">
+        <form class="contact-form" action="https://formspree.io/f/xkgbraoa" method="POST">
+            <h2>Contact Me</h2>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <h2><a href="https://Github.com/Crypt-atu/">CRYPT_ATU</a></h2>
+        <h3>cryptatu@copyright2025</h3>
+        <div>
+            <h4>You can reach my out through:</h4>
+            <p>email: crypt_atu@proton.me</p>
+            <p>phone_no: 08136602086</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
